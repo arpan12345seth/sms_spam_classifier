@@ -4,7 +4,6 @@ import string
 import nltk
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
-nltk.download('punkt')
 
 # Download NLTK requirements
 nltk.download('punkt')
