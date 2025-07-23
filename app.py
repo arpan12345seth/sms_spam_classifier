@@ -4,30 +4,23 @@ import string
 import nltk
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
-from nltk.tokenize import word_tokenize
+from nltk.tokenize import RegexpTokenizer
 
-# Download NLTK requirements
-nltk.download('punkt')
+# Download only required NLTK data
 nltk.download('stopwords')
 
-# Initialize stemmer
+# Initialize stemmer and tokenizer
 ps = PorterStemmer()
+tokenizer = RegexpTokenizer(r'\w+')
 
 # Text preprocessing
 
 
 def transform_text(text):
     text = text.lower()
-    text = word_tokenize(text)
+    text = tokenizer.tokenize(text)
 
     y = []
-    for i in text:
-        if i.isalnum():
-            y.append(i)
-
-    text = y[:]
-    y.clear()
-
     for i in text:
         if i not in stopwords.words('english') and i not in string.punctuation:
             y.append(i)
