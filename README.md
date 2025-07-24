@@ -49,8 +49,7 @@ These steps ensure the model focuses on **meaningful textual features** and avoi
 
 ### 🔍 Analysis Summary
 
-- 🔒 **High Precision**: Every message labeled as spam truly is spam. This ensures users never lose real messages due to misclassification.  
-- ⚠️ **Moderate Recall**: 30 spam messages were classified as ham. Improving recall is key to catching all spam.  
+- 🔒 **High Precision**: Every message labeled as spam truly is spam. This ensures users never lose real messages due to misclassification.   
 - ✅ **Perfect Specificity**: No ham messages are flagged as spam (zero false positives).
 
 ---
