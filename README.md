@@ -31,7 +31,7 @@ These steps ensure the model focuses on **meaningful textual features** and avoi
 | **Accuracy**   | 97.10%        |
 | **Precision**  | 100.00%       |
 
-> ⚠️ While precision is **perfect**, recall is relatively lower, indicating that while **no ham is misclassified**, a few spam messages may be missed.
+> ⚠️ While precision is **perfect**, indicating that while **no ham is misclassified**, a few spam messages may be missed.
 
 ---
 
@@ -110,5 +110,5 @@ streamlit run app.py
 
 ## 👨‍💻 Author
 
-**Arpan Kumar Seth**  
+**Arpan Seth**  
 🔗 GitHub: [@arpan12345seth](https://github.com/arpan12345seth)
