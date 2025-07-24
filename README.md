@@ -1,7 +1,7 @@
 
 # 📩 SMS Spam Classifier
 
-🔗 **[Live Demo](https://spam-messege-detection.onrender.com)** – Try the app online!
+🔗 **[Live Demo](https://spam-messege-detection.onrender.com)** – Explore the Live Web App
 
 A compact yet powerful machine learning project to **detect spam messages** using **Naive Bayes** and **Natural Language Processing (NLP)** techniques. This classifier is trained on SMS data to distinguish between **ham** (legitimate) and **spam** (unwanted) messages with a **precision of 100%**.
 
